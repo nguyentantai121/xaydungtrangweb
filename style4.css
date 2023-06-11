@@ -1,0 +1,106 @@
+.menu>a {
+    color: blue;
+    text-decoration: none;
+}
+
+.menu>a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container>header {
+    background-image: url(../asm1/amages/download.jpg);
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%
+}
+
+.container nav  {
+    line-height: 40px;
+    background-color:green;
+    text-align: center;
+    font-variant: small-caps;
+    margin-bottom: 20px;
+}
+
+
+.container>ul>li>a:hover{
+    color: yellow;
+}
+
+.container a {
+    color: white;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.container nav a:hover {
+    background-color: darkgray;
+    color: orangered;
+    text-decoration: underline;
+
+}
+
+
+.container article {
+    min-height: 500px;
+    width: 75%;
+    float: left;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.container aside {
+    min-height: 500px;
+    width: 25%;
+    float: right;
+    background-color: blanchedalmond;
+    margin-bottom: 20px;
+}
+
+.container aside ul {
+    list-style: none;
+    padding: 20px;
+    text-decoration: none;
+    box-shadow: 0 0 5px red;
+    border-radius: 5px;
+}
+
+.container aside ul li a {
+    text-decoration: none;
+    background: url(amages/1009-10093114_bouton-rouge-png-hnh-trn-mu-.png) no-repeat 10px center;
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    background-size: 6%;
+}
+
+.container aside ul li a:hover {
+    background: url(amages/images.jpg) no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    background-size: 6%;
+
+}
+
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styleall.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="top-right">
+                <a href="#">Đăng nhập </a>
+                <a href="dangki.html">Đăng ký </a>
+                <a href="#">Đổi mật khẩu</a>
+            </div>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li> <a href="asm.html" target="_self">Trang chủ</a> </li>
+                <li><a href="../about.html" target="_page">Giới thiệu</a> </li>
+                <li>
+                    <a href="../contact.html" target="_page">Liên hệ</a>
+                    <ul>
+                        <li><a href="#">Mobile</a></li>
+                        <li><a href="#">Email</a></li>
+                    </ul>
+                </li>
+                <li><a href="../feedback.html" target="_page">Góp ý</a> </li>
+                <li><a href="../faq.html" target="_page">Hỏi đáp</a> </li>
+            </ul>
+        </nav>
+        <article>
+            <form>
+                <div class="fonm-group">
+                    <label class="chu">HO VA TEN</label> <br>
+                    <input type="text"  class="fonm-control" tabindex="1">
+                </div>
+                <div class="fonm-group"><fieldset style="margin: 10px 0px">
+                    <legend>gioi tinh</legend> <br>
+                    <input name="gioi tinh" type="radio"><span class="chu">Nam</span>
+                    <input name="gioi tinh" type="radio"><span class="chu">Nu</span></fieldset>
+                </div>
+                <div class="fonm-group">
+                   
+                    <label for="">ngay sinh</label> <br>
+                    <input type="date">
+                </div>
+
+                <div class="fonm-group">
+                    <label class="chu">nghe nghiep</label> <br>
+                    <input class="fonm-control" type="list" list="die">
+                    <datalist>
+                        <option value="">loc fuho</option>
+                        <option value="">it</option>
+                        <option value="">maketer</option>
+                    </datalist>
+                </div>
+                <div class="fonm-group">
+                    <fieldset style="margin: 10px 0">
+                    <legend>so thich</legend><br>
+                  <label for="">  <input type="checkbox" class="chu">the thao</label>
+                  <label for="">  <input type="checkbox" class="chu">du lich</label>
+                  <label for=""> <input type="checkbox" class="chu">am nhac</label>
+                 <label for=""> <input type="checkbox" class="chu">hoa si</label></fieldset>
+                </div>
+                <div class="fonm-group">
+                    <label class="chu">ghi chu</label><br>
+                    <textarea name="" id="" cols="30" rows="5" tabindex="2"></textarea>
+                </div>
+                <div class="fonm-group">
+                    <button class="fonm-button" tabindex="3">dang ki</button>
+                    <button class="fonm-button" tabindex="4">nhap lai</button>
+        
+                </div>
+        
+            </form>
+        </article>
+
+        <footer></footer>
+    </div>
+</body>
+
+</html>
